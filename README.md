@@ -1,6 +1,6 @@
-## What is `assetstack`
+## What is `assetsblock`
 
-`Assetstack` is a django app that provides an `assets` template tag
+`Assetsblock` is a django app that provides an `assets` template tag
 and enables you to write more encapsulated templates that define their
 javascript and css dependencies. Those dependencies will always render at the correct place.
 
@@ -69,5 +69,5 @@ This is possible via the `django-output-context`
 
 ```
 
-## What `assetstack` doesn't do
+## What `assetsblock` doesn't do
 It doesn't clean duplicate scripts, however the easiest solution would be to use a `uniquelines` filter when outputing 

@@ -2,7 +2,7 @@ from django import template
 from django.template.base import TemplateSyntaxError
 from django.template.loader_tags import BlockNode, BLOCK_CONTEXT_KEY
 
-from assetstack.assets import Registry
+from assetsblock.assets import Registry
 
 register = template.Library()
 
