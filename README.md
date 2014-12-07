@@ -39,20 +39,17 @@ This is possible via the `django-output-context`
 
 *widget_a.html*
 ```
-{% extends 'widget_b.html' %}
 {% assets footerjs %}
     <script src="{% static 'js/widget_a.js' %}"></script>
 {% endassets %}
-{% include widget.html %}
 ```
 
 *widget_b.html*
 ```
-{% extends 'widget_b.html' %}
+{% extends 'widget_a.html' %}
 {% assets footerjs %}
     <script src="{% static 'js/widget_b.js' %}"></script>
 {% endassets %}
-{% include widget.html %}
 ```
 
 ### Output
