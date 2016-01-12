@@ -1,5 +1,7 @@
 ## What is `assetsblock`
 
+[![Join the chat at https://gitter.im/obshtestvo-utilities/django-assets-block](https://badges.gitter.im/obshtestvo-utilities/django-assets-block.svg)](https://gitter.im/obshtestvo-utilities/django-assets-block?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 `Assetsblock` is a django app that provides an `assets` template tag
 and enables you to write more encapsulated templates that define their
 javascript and css dependencies. Those dependencies will always render at the correct place.
